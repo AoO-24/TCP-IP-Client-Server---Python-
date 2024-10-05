@@ -5,13 +5,11 @@ adding try and excepts for errors, system logging for tracking messaged data, an
 
 
 1.
-第 1 个问题
  What is data encapsulation?
 
 The process of adding extra information at each layer of the OSI model while information flows from one host to another.
 
 2.
-第 2 个问题
 A company has a teleconferencing system that utilizes VOIP technology. 
 
 This system uses UDP as the transport. 
@@ -37,12 +35,12 @@ To interconnect networks and choose the best path between them.
    
 HTTPs uses encryption.
 
-6.第 6 个问题
+6.
  What is the meaning of the output MTU 1500 Bytes?  MTU - maximun transmission unit
  
 The maximum packet size that can traverse this interface is 1500 bytes.  
 
-7. 第 7 个问题
+7. 
  What is the purpose of a switch in the network?
 
 To provide network attachment to the end systems and intelligent switching of the data within the local network.  
@@ -67,6 +65,8 @@ Based on the MAC address table shown here, what will switch ‘leaf1’ do with 
 解释:
 
 当交换机接收到帧时，它首先会检查源MAC地址，并将其添加到MAC地址表中，这样以后可以更高效地转发数据帧到该源地址的设备。
+
+
 第11题: 如何在第3层数据中心设计中实现多路径支持？
 正确答案:
 
@@ -74,6 +74,7 @@ Based on the MAC address table shown here, what will switch ‘leaf1’ do with 
 解释:
 
 BGP（边界网关协议）是一种常用于数据中心的路由协议，它支持多路径（ECMP，等价多路径路由）。ECMP允许多个路径在路由表中拥有相同的成本，从而实现负载均衡和更高的冗余性。
+
 第12题: 如何在第2层数据中心设计中实现多路径支持？
 正确答案:
 
@@ -81,6 +82,8 @@ BGP（边界网关协议）是一种常用于数据中心的路由协议，它�
 解释:
 
 MSTP（多实例生成树协议）允许多个生成树实例在一个网络中运行，从而为不同的VLAN提供多路径支持。这在第2层网络中通过防止环路和支持不同路径来实现冗余和负载均衡。
+
+
 第13题: BGP 作为数据中心协议受欢迎的原因是？（选择两个）
 正确答案:
 
@@ -89,6 +92,8 @@ MSTP（多实例生成树协议）允许多个生成树实例在一个网络中�
 解释:
 
 BGP的可扩展性和稳定性使其成为大型网络环境中的首选。它通过支持多路径（ECMP）来提高网络的灵活性和效率，从而在数据中心环境中变得越来越流行。
+
+
 第14题: 哪两个用于防止第2层网络中的环路？（选择两个）
 正确答案:
 
@@ -97,6 +102,8 @@ STP
 解释:
 
 MLAG（多链路聚合组）和STP（生成树协议）是第2层网络中常用的防止环路的技术。MLAG允许跨设备的链路聚合，而STP则通过阻止冗余链路中的部分链路来防止网络环路。
+
+
 第15题: IP包中的生存时间（TTL）字段的目的是什么？
 正确答案:
 
